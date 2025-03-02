@@ -5,6 +5,7 @@ namespace PersonalIncomeTaxComputationLogic.Cases;
 
 public class SeniorCitizenCommands : IComputationCommand
 {
+    // err throw
     public bool Execute(ComputationEngine.ComputationEngine ctx)
     {
         // what is the Get("tax_cargo") do and where it came from 
